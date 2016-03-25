@@ -1,0 +1,25 @@
+ul.faq {
+}
+ul.faq>li {
+    list-style-type: none;
+}
+ul.faq>li>dl {
+    margin-bottom: 30px;
+}
+ul.faq>li>dl>dt {
+    background-image: url(../images/ico-info_q.svg);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding-left: 29px;
+    line-height: 2;
+    background-position-y: center;
+    margin-bottom: 5px;
+}
+ul.faq>li>dl>dd {
+    background-image: url(../images/ico-info_a.svg);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    padding-left: 29px;
+    line-height: 1.6;
+    background-position-y: center;;
+}
